@@ -1,5 +1,9 @@
 User-agent: *
 Allow: /
 Allow: /*.pdf$
-# PDF documents are alternative formats
+
+# Sitemap
 Sitemap: https://kinacitula.github.io/docs/sitemap.xml
+
+# Crawl-delay для тяжелых типов
+Crawl-delay: 1
